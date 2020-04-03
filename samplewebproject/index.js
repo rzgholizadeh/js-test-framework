@@ -3,8 +3,8 @@ document.querySelector("form").addEventListener("submit", event => {
 	const { value } = document.querySelector("input");
 	const header = document.querySelector("h1");
 	if (value.includes("@")) {
-		header.innerHTML = "looks good";
+		header.innerHTML = "Looks good!";
 	} else {
-		header.innerHTML = "invalid email";
+		header.innerHTML = "Invalid email!";
 	}
 });
