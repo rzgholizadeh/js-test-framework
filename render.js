@@ -8,7 +8,11 @@ const render = async filename => {
 		runScripts: "dangerously",
 		resources: "usable"
 	});
-	return dom;
+	return new Promise((resolve, reject) => {
+		dom.window.document.addEventListener("DOMContentLoaded", () => {
+			resolve(dom);
+		});
+	});
 };
 
 module.exports = render;

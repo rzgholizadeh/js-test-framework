@@ -31,7 +31,7 @@ class Runner {
 				}
 			};
 			try {
-				require(file.name);
+			require(file.name);
 			} catch (err) {
 				console.log("X - Error Loading File", file.name);
 				console.log(chalk.red(err));
