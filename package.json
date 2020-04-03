@@ -1,20 +1,23 @@
 {
-  "name": "js-test-framework",
-  "version": "1.0.0",
-  "description": "A Node-based CLI test framework for JavaScript applications",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rzgholizadeh/js-test-framework.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rzgholizadeh/js-test-framework/issues"
-  },
-  "homepage": "https://github.com/rzgholizadeh/js-test-framework#readme"
+	"name": "js-test-framework",
+	"version": "1.0.0",
+	"description": "A Node-based CLI test framework for JavaScript applications",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rzgholizadeh/js-test-framework.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rzgholizadeh/js-test-framework/issues"
+	},
+	"homepage": "https://github.com/rzgholizadeh/js-test-framework#readme",
+	"bin": {
+		"tme": "index.js"
+	}
 }
