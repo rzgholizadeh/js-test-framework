@@ -19,5 +19,8 @@
 	"homepage": "https://github.com/rzgholizadeh/js-test-framework#readme",
 	"bin": {
 		"tme": "index.js"
+	},
+	"dependencies": {
+		"chalk": "^4.0.0"
 	}
 }
